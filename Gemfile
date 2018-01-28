@@ -2,11 +2,12 @@
 
 source "https://rubygems.org"
 
+ruby "~> 2.7.1"
+
 gem "rails", ["~> 5.2.4", ">= 5.2.4.4"]
 
-gem "mysql2"
 gem "pg"
-gem "sqlite3", "~> 1.4.0"
+gem "rails_12factor"
 
 # Store sessions in the database
 gem "activerecord-session_store", "~> 1.1.0"
